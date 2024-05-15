@@ -2804,7 +2804,7 @@ blockquote.style2:after {
 /* PAGE LAYOUT */
 
 .page-title {
-    text-transform: uppercase;
+   
     margin-bottom: 55px;
     margin-top: 25px;
 }
@@ -6684,7 +6684,7 @@ table.group-product > tbody > tr > td {
 table.group-product > tbody > tr > th {
     background-color: #eee;
     border: none;
-    text-transform: uppercase;
+   
 }
 
 table.group-product a {
@@ -8124,7 +8124,7 @@ table {
     vertical-align: middle;
     padding-left: 10px;
     padding-right: 10px;
-    text-transform: uppercase;
+
 }
 
 .shop_table.cart .product-name a {

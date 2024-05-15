@@ -136,7 +136,7 @@ h5,
 h6 {
     line-height: 1.3em;
     margin-top: 0;
-    color: #222;
+    color: #474749;
 }
 
 h1 {
@@ -250,21 +250,22 @@ input[type="submit"] {
     display: inline-block;
     padding: 9px 25px;
     text-align: center;
-    text-transform: uppercase;
+   
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     background: transparent;
     position: relative;
-    background-color: #2e2f34;
-    font-size: 12px;
+    background-color: #e2001a;
+    font-size: 14px;
     border: none;
     font-weight: 600;
+    border-radius: 4px;
 }
 
 .button:hover,
 input[type="submit"]:hover {
-    background-color: #2e2f34;
+/*    background-color: #2e2f34;*/
     color: #fff;
 }
 
@@ -994,9 +995,9 @@ blockquote.style2:after {
 
 .main-menu > li > a {
     padding: 13px 0;
-    text-transform: uppercase;
+   
     display: inline-block;
-    color: #000;
+    color: #fff;
     font-size: 12px;
     position: relative;
 }
@@ -1720,7 +1721,7 @@ blockquote.style2:after {
 }
 
 .header.style3 .mini-cart .cart-link .icon {
-    color: #000;
+    color: #fff;
     font-size: 26px;
     /*	font-weight: 600;*/
     display: inline-block;
@@ -1732,13 +1733,13 @@ blockquote.style2:after {
 }
 
 .header.style3 .mini-cart .cart-link {
-    color: #000;
+    color: #fff;
     /*	font-weight: 600;*/
 }
 
 .header.style3 .box-search {
     background: #fff;
-    border-radius: 44px;
+    border-radius: 15px 5px;
     width: 220px;
     border: 1px solid #e5e5e5;
 }
@@ -1763,18 +1764,18 @@ blockquote.style2:after {
 
 .header.style3 .box-settings .icon {
     line-height: 40px;
-    color: #000;
+    color: #fff;
     /*	font-weight: 600;*/
 }
 
 .header.style3 .main-menu > li > a {
-    padding: 18px 0;
-    font-size: 12px;
+   
+    font-size: 16px;
 }
 
 .header.style3 .main-menu > li > a:hover,
 .header.style3 .main-menu > li.active > a {
-    color: #000;
+    color: #fff;
     font-weight: 600;
 }
 
@@ -1784,7 +1785,7 @@ blockquote.style2:after {
 }
 
 .header.style3 .main-menu > li {
-    padding: 0 8px;
+    padding: 0 20px;
 }
 
 .header.style3 .main-menu > li:first-child {
@@ -2675,7 +2676,7 @@ blockquote.style2:after {
 }
 
 .header.ontop {
-    background-color: #f5f5f5;
+    background-color: #e2001a;
     background-size: cover;
     background-position: top center;
     position: fixed;
@@ -2689,7 +2690,7 @@ blockquote.style2:after {
     -webkit-transition: padding 0.5s ease 0s;
     -o-transition: padding 0.5s ease 0s;
     transition: padding 0.5s ease 0s;
-    opacity: .90;
+   
 }
 
 .header.ontop .main-header {
@@ -2882,9 +2883,9 @@ PRODUCT
 }
 
 .product-item .product-name a {
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #222222;
+   
+    font-size: 16px;
+    color: #474749;
 }
 
 .product-item .product-name a:hover {
@@ -2893,7 +2894,7 @@ PRODUCT
 }
 
 .product-item .price {
-    color: #2e2f34;
+    color: #474749;
     display: block;
     font-size: 1.6rem;
     /*	margin-bottom: 5px;*/
@@ -3099,17 +3100,19 @@ DS .product-list .product-item {
 /* PRODUCT STYLE 3*/
 
 .product-item.style3 .add_to_cart_button {
-    border: 1px solid #333;
-    background-color: transparent;
-    color: #333;
+
+    background-color: #e2001a;
+    color: #fff;
     font-weight: 600;
     margin-top: 15px;
 }
 
 .product-item.style3 .add_to_cart_button:hover {
+/*
     background-color: #2e2f34;
     color: #fff;
     border-color: #2e2f34;
+*/
 }
 
 .product-item.style3 .wishlist:hover,
@@ -3533,7 +3536,7 @@ DS .product-list .product-item {
 
 .widget .widget-title {
     font-size: 15px;
-    text-transform: uppercase;
+
     margin-bottom: 15px;
     position: relative;
 }
@@ -3844,7 +3847,7 @@ DS .product-list .product-item {
 }
 
 .widget_recent_product .price {
-    color: #222;
+    color: #474749;
 }
 
 .widget_recent_product .price ins {
@@ -4155,9 +4158,9 @@ FOOTER
 -----------------------------------*/
 
 .footer {
-    background-color: #000;
+    background-color: #474749;
     color: #fff;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 /*.footer .flex-flow{
@@ -4174,7 +4177,7 @@ FOOTER
     font-size: 19px;
     color: #fff;
     margin-bottom: 20px;
-    text-transform: uppercase;
+ 
 }
 
 .footer .widget .widget-title:after {
@@ -4241,7 +4244,7 @@ FOOTER
 
 .footer .footer-bottom {
     margin-top: 40px;
-    background: #2e2f34;
+    background: #3A3A3C;
 }
 
 .footer .footer-bottom p {
@@ -4772,8 +4775,8 @@ font-family: 'AkzidenzGrotesk';
 
 .section-title h3 {
     font-size: 24px;
-    text-transform: uppercase;
-    color: #222;
+ 
+    color: #474749;
     margin-bottom: 0;
     position: relative;
     display: inline-block;
@@ -4912,7 +4915,7 @@ font-family: 'AkzidenzGrotesk';
     content: '';
     width: 50px;
     height: 2px;
-    background-color: #2e2f34;
+    background-color: #e20219;
     display: block;
     margin: 0 auto;
     margin-top: 5px;
@@ -5572,17 +5575,19 @@ font-family: 'AkzidenzGrotesk';
 }
 
 .tab-product .nav-tab li a {
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #1F365C;
+    font-size: 16px;
+
+    color: #474749;
     position: relative;
 }
-
+.tab-product .nav-tab .active a {
+    font-weight: 600;
+}
 .tab-product .nav-tab li a:after {
     width: 0px;
     height: 2px;
     display: block;
-    background-color: #2e2f34;
+    background-color: #e20219;
     margin: 0 auto;
     margin-top: 8px;
     content: '';
@@ -9354,7 +9359,7 @@ RESPONSIVE
 }
 
 .basket {
-    background: #2e2f34;
+    background: #e2001a;
     border-radius: 100%;
     height: 24px;
     line-height: 24px;
@@ -9430,16 +9435,16 @@ RESPONSIVE
 
 
 #header {
-    background: #f5f5f5;
+    background: #e2001a;
     background-size: cover;
     background-position: top center;
 }
 
 .favorito {
     background-color: #fff;
-    border: 1px solid #333;
+   
     border-left: 0;
-    color: #2e2f34;
+    color: #e2001a;
     padding: 12px 15px 14px;
     font-size: 14px;
     margin-top: 15px;
@@ -9447,8 +9452,8 @@ RESPONSIVE
 }
 
 .favorito:hover {
-    color: #fff;
-    background: #2e2f34;
+    color: #e2001a;
+  
 }
 
 .style-10 {
@@ -9466,13 +9471,13 @@ RESPONSIVE
 }
 
 li.info-pts {
-    border-radius: 25px;
+    border-radius: 15px 5px;
     background-color: #fff;
     padding: 11px 18px;
     background-repeat: no-repeat;
     background-position: top left;
     margin-right: 20px;
-    color: #000;
+    color: #474749;
 }
 
 .lst-sty {
@@ -9534,7 +9539,7 @@ li.info-pts {
 }
 
 .txt-desk {
-    color: #000;
+    color: #fff;
 }
 
 .oferta {

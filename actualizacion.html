@@ -25,46 +25,76 @@
                     <img src="images/logos/logo-blanco.png" alt="">
                     <br><br>
                     <div class="section-title text-center">
-                        <h4>Actualización de datos</h4>
+                        <h4>Por favor actualiza tus datos para poder participar del programa Ekeko Puntos.</h4>
                     </div>
-                   
+
                     <form class="text-left">
                         <label for="">Tipo de documento</label><br>
-                <input id="name" type="text" placeholder="DNI" style="width: 100%" disabled>
+                        <input id="name" type="text" placeholder="DNI" style="width: 100%" disabled>
                         <br><br>
-  
-                        <label for="" >N° de documento</label><br>
+
+                        <label for="">N° de documento</label><br>
                         <input id="name" type="text" placeholder="9554221442" style="width: 100%" disabled>
                         <br><br>
                         <label for="" class="obl">Nombres</label><br>
-                        <input id="name" type="text" placeholder="Magali" style="width: 100%" >
-                        <br><br>
+                        <input id="name" type="text" placeholder="Magali" style="width: 100%">
+                        <p class="red">Ingresa nombres</p>
                         <label for="" class="obl">Apellido paterno</label><br>
-                        <input id="name" type="text" placeholder="Gonsalez" style="width: 100%" >
-                        <br><br>
-                         <label for="" class="obl">Apellido materno</label><br>
-                        <input id="name" type="text" placeholder="Gonsalez" style="width: 100%" >
-                        <br><br>
+                        <input id="name" type="text" placeholder="Gonsalez" style="width: 100%">
+                        <p class="red">Ingresa apellido paterno</p>
+                        <label for="" class="obl">Apellido materno</label><br>
+                        <input id="name" type="text" placeholder="Gonsalez" style="width: 100%">
+                        <p class="red">Ingresa apellido materno</p>
                         <label for="" class="obl">Teléfono fijo</label><br>
                         <input id="name" type="text" style="width: 100%">
-                        <br><br>
+                        <p class="red">Ingresa teléfono</p>
                         <label for="" class="obl">Celular</label><br>
                         <input id="name" type="password" style="width: 100%">
-                        <br><br>
-                        <label for="" >Correo electrónico</label><br>
+                        <p class="red">Ingresa celular</p>
+                        <label for="">Correo electrónico</label><br>
                         <input id="name" type="text" style="width: 100%" placeholder="magali@motiva.com" disabled>
                         <br><br>
                         <label for="" class="obl">Fecha de nacimiento</label><br>
                         <input id="name" type="date" style="width: 100%">
-                         <br><br>
+                        <p class="red">Ingresa fecha de nacimiento</p>
+                        <label for="" class="obl">Departamento</label><br>
+                        <select name="" class="normal" id="" style="width: 100%;height: 40px">
+                            <option value="" class="normal">Seleccionar</option>
+                            <option value="" class="normal">Lorem ipsum</option>
+                            <option value="" class="normal">Lorem ipsum</option>
+                            <option value="" class="normal">Lorem ipsum</option>
+                        </select>
 
+                        <p class="red">Selecciona departamento</p>
+                        <label for="" class="obl">Provincia</label><br>
+                        <select name="" class="normal" id="" style="width: 100%;height: 40px">
+                            <option value="" class="normal">Seleccionar</option>
+                            <option value="" class="normal">Lorem ipsum</option>
+                            <option value="" class="normal">Lorem ipsum</option>
+                            <option value="" class="normal">Lorem ipsum</option>
+                        </select>
+
+                        <p class="red">Selecciona provincia</p>
+                        <label for="" class="obl">Distrito</label><br>
+                        <select name="" class="normal" id="" style="width: 100%;height: 40px">
+                            <option value="" class="normal">Seleccionar</option>
+                            <option value="" class="normal">Lorem ipsum</option>
+                            <option value="" class="normal">Lorem ipsum</option>
+                            <option value="" class="normal">Lorem ipsum</option>
+                        </select>
+
+                        <p class="red">Selecciona distrito</p>
+                        <label for="" class="obl">Dirección</label><br>
+                        <input id="name" type="text" style="width: 100%">
+
+                        <p class="red">Ingresa dirección</p>
                         <div class="checkbox">
                             <label>
-							  <input type="checkbox">Acepto los <a href="" data-target="#tyc" data-toggle="modal" style="text-decoration: underline">términos y condiciones</a>
-							</label>
+                                <input type="checkbox">Acepto los <a href="" data-target="#tyc" data-toggle="modal" style="text-decoration: underline">términos y condiciones</a>
+                            </label>
                         </div>
-                       
-                        <br>
+
+                        <p class="red">Acepta los términos y condiciones</p>
                         <a href="index.html" class="button" style="width: 100%">Actualizar datos</a>
 
                     </form>
@@ -78,8 +108,8 @@
         <form class="form-container">
             <div class="dis-flex padd-box1">
                 <h2 class="tittle-chatbot">Hola, ¿En que podemos ayudarte?, te responderemos lo más pronto
-					posible. Nuestros horarios de atención son de lunes a viernes de 9h00
-					a 18h00.</h2>
+                    posible. Nuestros horarios de atención son de lunes a viernes de 9h00
+                    a 18h00.</h2>
                 <div style="width: 30px; height: 30px;">
                     <button class="close-form" onclick="closeForm()" src="images/arrow-bot.png" alt="">X</button>
                 </div>
@@ -90,12 +120,12 @@
             </div>
             <!-- <textarea placeholder="Type message.." name="msg" required></textarea> -->
             <a class="btn-enviar" target="_blanck" href="https://api.whatsapp.com/send?phone=+551946327229&text=Hola quisiera información de productos!">
-				<img src="images/enviar.png"  alt="whatsapp">
-			</a>
+                <img src="images/enviar.png" alt="whatsapp">
+            </a>
         </form>
     </div>
 
-	<script>
+    <script>
         function openForm() {
             document.getElementById("myForm").style.display = "block";
         }
@@ -111,11 +141,11 @@
             <div class="modal-content">
                 <div class="modal-header" style="border-bottom: 0;">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					</button>
+                    </button>
                 </div>
                 <div class="modal-body " style="margin-bottom: 20px;">
                     <h4 class="text-center" style="font-weight: 600">Términos y condiciones</h4>
-                    
+
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum consectetur eaque voluptatem ipsam iure recusandae voluptatum et. Tempora dicta, ducimus dolor culpa nihil perspiciatis? Rerum dolore odio provident voluptate, quisquam. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt suscipit officia minus delectus quod ullam ducimus officiis quia exercitationem fugit quidem incidunt, provident saepe accusamus hic earum, nostrum dolores aut!</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum consectetur eaque voluptatem ipsam iure recusandae voluptatum et. Tempora dicta, ducimus dolor culpa nihil perspiciatis? Rerum dolore odio provident voluptate, quisquam. <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt suscipit officia minus delectus quod ullam ducimus officiis quia exercitationem fugit quidem incidunt, provident saepe accusamus hic earum, nostrum dolores aut!</p>
                     <br>

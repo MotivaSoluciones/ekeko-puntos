@@ -1684,7 +1684,7 @@ blockquote.style2:after {
 /* HEADER STYLE 3 */
 
 .header.style3 .logo {
-    padding-top: 55px;
+    padding-top: 43px;
 }
 
 .header.style3 .top-header {
@@ -9964,6 +9964,7 @@ li.info-pts {
     font-size: 16px;
     line-height: 20px;
     color: #fff;
+    text-align: justify;
 }
 
 

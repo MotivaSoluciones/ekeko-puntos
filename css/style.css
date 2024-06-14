@@ -9525,6 +9525,7 @@ RESPONSIVE
 
 .price-normal {
     color: #7d7b7b;
+    display: none;
     font-size: 12px;
     margin-bottom: 15px;
     text-decoration: line-through;
